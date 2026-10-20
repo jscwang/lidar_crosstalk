@@ -1,0 +1,17 @@
+{
+  "_comment": "RQ3 at 0.3 m against the dark grey board, two angles only: 0 and 2.5 degrees per side (dtheta 0 and 5). 0 uses the inner arm hole, 2.5 uses the outer hole, so the pin moves once. This is the control arm of the divider test: nothing between the pucks. Pair it with rq3_0p3m_divider.json, which repeats the same two angles with a black strip standing between the pucks. 2026-09-29.",
+  "name": "rq3-0p3m-no-divider",
+  "distances_m": [0.3],
+  "theta_per_side_deg": [0, 2.5],
+  "rois": [16, 4],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.10,
+  "max_block_attempts": 3,
+  "seed": 20260929
+}

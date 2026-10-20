@@ -1,0 +1,40 @@
+{
+  "_comment": "Replication of RQ3 on the second rig plan: angles in a random order (fixed seed 20261003), 0.3 m then 0.8 m, both zones, five repeats of 30 s blocks. Adaptive stop off: every angle is measured. Run with python -m rig session --guided --port COMx --config configs/rq3_replication.json --out data. Room temperature is typed at each angle change.",
+  "name": "rq3-replication",
+  "distances_m": [
+    0.3,
+    0.8
+  ],
+  "theta_per_side_deg": [
+    9.0,
+    2.0,
+    5.0,
+    11.0,
+    8.0,
+    4.0,
+    7.0,
+    3.0,
+    6.0,
+    12.0,
+    10.0,
+    0.0
+  ],
+  "rois": [
+    16,
+    4
+  ],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.1,
+  "max_block_attempts": 3,
+  "seed": 20261003,
+  "adaptive_stop_ratio": 0.0,
+  "adaptive_confirm": 1,
+  "range_tol_mm": 15,
+  "square_tol_mm": 10
+}

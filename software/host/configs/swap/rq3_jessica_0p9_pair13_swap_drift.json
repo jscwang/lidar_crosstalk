@@ -1,0 +1,38 @@
+{
+  "_comment": "Drift check at 0.9 m, run directly after the swap sweep rq3_jessica_0p9_pair13_swap.json, with nothing on the rig touched in between: same units (unit 1 in A, unit 3 in B), same board, same lighting. It repeats three of the sweep's angles, 12, 6 and 0 degrees per side, in that order, so the first needs no pin move (the sweep ends at 12) and the later ones are moved down. Three repeats of both zones. The adaptive stop is off, so the angles are taken in the order listed and none is skipped. Compare its cell means with the same cells of the sweep: a difference larger than the spread of the blocks means the rig or the room drifted during the sweep. Do not merge it into the sweep. Use --no-warmup only if the rig has been on and ranging since the sweep. Run: python -m rig session --guided --port COM7 --config configs/swap/rq3_jessica_0p9_pair13_swap_drift.json --out data/swap",
+  "name": "rq3-jessica-0p9-pair13-swap-drift",
+  "distances_m": [
+    0.9
+  ],
+  "theta_per_side_deg": [
+    12,
+    6,
+    0
+  ],
+  "rois": [
+    16,
+    4
+  ],
+  "repeats": 3,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.1,
+  "max_block_attempts": 3,
+  "seed": 20261002,
+  "adaptive_stop_ratio": 0,
+  "adaptive_confirm": 1,
+  "range_tol_mm": 15,
+  "square_tol_mm": 10,
+  "expected_range_mm": {
+    "0.9": {
+      "0": 891,
+      "12": 913
+    }
+  },
+  "square_offset_mm": 0.0,
+  "notes": "DRIFT CHECK for the swap sweep: unit 1 in position A and unit 3 in position B, same board and setup as the swap sweep it follows. Angles 12, 6 and 0 degrees per side, in that order, three repeats."
+}

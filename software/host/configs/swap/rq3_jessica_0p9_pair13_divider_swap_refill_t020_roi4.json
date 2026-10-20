@@ -1,0 +1,34 @@
+{
+  "_comment": "Refill for rq3_jessica_0p9_pair13_divider_plus1.json (the swap divider test Jessica ran at 0.9 m, unit 1 in A, unit 3 in B, theta 1/2/5 deg per side): d090_t020_r2_roi4, r3, r4 and r5 all failed 3 times and were given up on (repeat 1 of that cell passed). theta_per_side_deg kept to [2] only, so the divider does not need to be reset to the other two angles for this refill. Same calibration as the divider-plus1 session. Run with the divider still in place, same units, board and lighting. Check events.log from the divider-plus1 session for why these failed before rerunning: four blocks giving up in a row at the same cell, after repeat 1 passed, is unusual and worth a look, not just a retry. Run: python -m rig session --guided --port COM7 --config configs/swap/rq3_jessica_0p9_pair13_divider_swap_refill_t020_roi4.json --out data/swap --tag swap-divider-refill",
+  "name": "rq3-jessica-0p9-pair13-divider-swap-refill-t020-roi4",
+  "distances_m": [
+    0.9
+  ],
+  "theta_per_side_deg": [
+    2
+  ],
+  "rois": [
+    4
+  ],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.1,
+  "max_block_attempts": 3,
+  "seed": 20261002,
+  "adaptive_stop_ratio": 0,
+  "adaptive_confirm": 1,
+  "range_tol_mm": 15,
+  "square_tol_mm": 10,
+  "expected_range_mm": {
+    "0.9": {
+      "0": 891,
+      "12": 913
+    }
+  },
+  "square_offset_mm": 3.0
+}

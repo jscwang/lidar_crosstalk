@@ -1,0 +1,22 @@
+{
+  "_comment": "The full RQ3 matrix for the guided run: python -m rig session --guided --port COMx --config configs/rq3_guided.json. Angles run in ascending order and, at each distance, the higher angles are skipped once the worst A+B over solo ambient ratio (both zones, both sensors) is at or below adaptive_stop_ratio. expected_range_mm is the 16x16 range each sensor reads at that distance on the local rig (0.3 m and 0.8 m from the dark grey board, tape to the sensor window): measure your own with python tools/live_ranges.py and replace these. Tolerances are in mm.",
+  "name": "rq3-guided",
+  "distances_m": [0.3, 0.8],
+  "theta_per_side_deg": [0, 2.5, 5, 7.5, 10, 12.5, 15],
+  "rois": [16, 4],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.10,
+  "max_block_attempts": 3,
+  "seed": 20260930,
+  "adaptive_stop_ratio": 1.10,
+  "adaptive_confirm": 1,
+  "expected_range_mm": {"0.3": 288, "0.8": 803},
+  "range_tol_mm": 15,
+  "square_tol_mm": 10
+}

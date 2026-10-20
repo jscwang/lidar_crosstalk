@@ -1,0 +1,17 @@
+{
+  "_comment": "Quick wall test, 2026-09-27: no IKEA target board yet, so this ranges against a plain wall at the distance actually measured on the bench (1.2 m, not the procedure's 0.3/0.8 m). Single angle (fixture left at its current setting) so the session runs unattended. Not the calibrated RQ3 dataset; for a first look and to exercise the full pipeline on real hardware.",
+  "name": "wall-1p2m-standin",
+  "distances_m": [1.2],
+  "theta_per_side_deg": [0],
+  "rois": [16, 4],
+  "repeats": 5,
+  "run_ms": 20000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 60,
+  "ambient_tolerance": 0.10,
+  "max_block_attempts": 3,
+  "seed": 20260927
+}

@@ -1,0 +1,208 @@
+{
+  "starts": [
+    {
+      "utc": "2026-10-13T03:48:50+00:00",
+      "host_software": "1.0.0",
+      "python": "3.13.14",
+      "firmware_info": {
+        "fw": "1.0.2",
+        "board": "wroom2",
+        "proto": "1",
+        "sda": "8",
+        "scl": "9",
+        "i2c_hz": "400000",
+        "mux": "0x70",
+        "chA": "0",
+        "chB": "1",
+        "intA": "4",
+        "intB": "5",
+        "readyA": "1",
+        "readyB": "1",
+        "centreA": "191",
+        "centreB": "199",
+        "verified": "1",
+        "roi": "16",
+        "tb": "33",
+        "imp": "40",
+        "mode": "short"
+      },
+      "selftest": {
+        "failed": 0,
+        "checks": [
+          {
+            "name": "mux_present",
+            "result": "PASS",
+            "detail": "TCA9548A answers at 0x70"
+          },
+          {
+            "name": "mux_select_A",
+            "result": "PASS",
+            "detail": "channel mask read back correctly"
+          },
+          {
+            "name": "mux_select_B",
+            "result": "PASS",
+            "detail": "channel mask read back correctly"
+          },
+          {
+            "name": "sensor_id_A",
+            "result": "PASS",
+            "detail": "model_id=0xEACC expected=0xEACC"
+          },
+          {
+            "name": "boot_A",
+            "result": "PASS",
+            "detail": "firmware_system_status=3"
+          },
+          {
+            "name": "settings_A",
+            "result": "PASS",
+            "detail": "roi=16 tb=33 imp=40 mode=short"
+          },
+          {
+            "name": "roi_centre_A",
+            "result": "INFO",
+            "detail": "optical_centre_spad=191"
+          },
+          {
+            "name": "sensor_id_B",
+            "result": "PASS",
+            "detail": "model_id=0xEACC expected=0xEACC"
+          },
+          {
+            "name": "boot_B",
+            "result": "PASS",
+            "detail": "firmware_system_status=3"
+          },
+          {
+            "name": "settings_B",
+            "result": "PASS",
+            "detail": "roi=16 tb=33 imp=40 mode=short"
+          },
+          {
+            "name": "roi_centre_B",
+            "result": "INFO",
+            "detail": "optical_centre_spad=199"
+          },
+          {
+            "name": "run_A_A",
+            "result": "PASS",
+            "detail": "n=25 period_ms=40.01 max_ms=40.02"
+          },
+          {
+            "name": "run_A_A_range",
+            "result": "INFO",
+            "detail": "median_mm=576 valid=25/25"
+          },
+          {
+            "name": "run_B_B",
+            "result": "PASS",
+            "detail": "n=25 period_ms=39.18 max_ms=39.19"
+          },
+          {
+            "name": "run_B_B_range",
+            "result": "INFO",
+            "detail": "median_mm=580 valid=25/25"
+          },
+          {
+            "name": "run_AB_A",
+            "result": "PASS",
+            "detail": "n=25 period_ms=40.02 max_ms=40.03"
+          },
+          {
+            "name": "run_AB_A_range",
+            "result": "INFO",
+            "detail": "median_mm=576 valid=25/25"
+          },
+          {
+            "name": "run_AB_B",
+            "result": "PASS",
+            "detail": "n=25 period_ms=39.19 max_ms=39.20"
+          },
+          {
+            "name": "run_AB_B_range",
+            "result": "INFO",
+            "detail": "median_mm=579 valid=25/25"
+          },
+          {
+            "name": "stop_quiet",
+            "result": "PASS",
+            "detail": "edges after stop: A=0 B=0"
+          },
+          {
+            "name": "int_idle_A",
+            "result": "PASS",
+            "detail": "GPIO4 level=1 expected=1"
+          },
+          {
+            "name": "int_idle_B",
+            "result": "PASS",
+            "detail": "GPIO5 level=1 expected=1"
+          },
+          {
+            "name": "i2c_errors",
+            "result": "PASS",
+            "detail": "failed I2C transactions during self-test=0"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "name": "rq3-jessica-0p6-divider-plus1",
+    "distances_m": [
+      0.6
+    ],
+    "theta_per_side_deg": [
+      1,
+      2,
+      5
+    ],
+    "rois": [
+      16,
+      4
+    ],
+    "repeats": 5,
+    "run_ms": 30000,
+    "tb_ms": 33,
+    "imp_ms": 40,
+    "mode": "short",
+    "spacing_mm": 20.0,
+    "warmup_s": 600,
+    "ambient_tolerance": 0.1,
+    "ambient_floor_kcps": 5.0,
+    "max_block_attempts": 3,
+    "seed": 20261002,
+    "conditions": [
+      "A",
+      "B",
+      "AB"
+    ],
+    "notes": "",
+    "adaptive_stop_ratio": 0,
+    "adaptive_confirm": 1,
+    "expected_range_mm": {
+      "0.6": {
+        "0.0": 570.0,
+        "12.0": 586.0
+      }
+    },
+    "range_tol_mm": 15,
+    "square_tol_mm": 10,
+    "square_offset_mm": 2.5
+  },
+  "tag": "swap-divider",
+  "author": "Jessica",
+  "_consolidated": {
+    "target": "div_swap_0p6",
+    "series": "div_swap",
+    "distance_m": 0.6,
+    "sources": [
+      {
+        "path": "pair13_sources/0p6_divider_swap",
+        "role": "only",
+        "note": "0.6 m divider check with the swap, 13 October: unit 1 in A, unit 3 in B, run after Jessica re-squared the board; the true board distance differs measurably from the original nodiv_0p6 session (see MANUSCRIPT_PROGRESS.md)"
+      }
+    ]
+  }
+}

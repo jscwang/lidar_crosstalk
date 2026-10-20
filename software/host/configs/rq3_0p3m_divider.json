@@ -1,0 +1,17 @@
+{
+  "_comment": "Divider arm of the direct-leakage test: identical to rq3_0p3m_no_divider.json but run with a black strip standing on edge between the two pucks, blocking the sensor-to-sensor line of sight without entering either field of view. If the extra ambient rate in the AB runs collapses to the solo level, the crosstalk travels directly between the sensors; if it survives, it arrives via the target. Same two angles (0 and 2.5 per side) at 0.3 m against the dark grey board. Own seed, so the run order is randomised independently of the control arm. 2026-09-29.",
+  "name": "rq3-0p3m-divider",
+  "distances_m": [0.3],
+  "theta_per_side_deg": [2.5, 0],
+  "rois": [16, 4],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.10,
+  "max_block_attempts": 3,
+  "seed": 20261002
+}

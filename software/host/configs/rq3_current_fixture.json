@@ -1,0 +1,17 @@
+{
+  "_comment": "RQ3 on the pin-index plate as built. Seven positions per side: the inner arm hole serves 0, 5, 10 and 15 degrees, the outer arm hole serves 3.5, 7.5 and 12.5 (read off the CAD and the plate; the first full run assumed 3, 7 and 12 and its data files were corrected afterwards, see ANGLE_CORRECTION.md in that session folder). Order changed 2026-09-29 from ascending to inner holes first, so the pin changes hole once per distance. Simulation with all seven positions gives a crossover interval of about 0.1 degree, so no new hardware is needed.",
+  "name": "rq3-current-fixture",
+  "distances_m": [0.3, 0.8],
+  "theta_per_side_deg": [0, 5, 10, 15, 2.5, 7.5, 12.5],
+  "rois": [16, 4],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.10,
+  "max_block_attempts": 3,
+  "seed": 20260923
+}

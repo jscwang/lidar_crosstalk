@@ -1,0 +1,45 @@
+{
+  "_comment": "RQ3 for Jessica: all angles at 0.3 m first, then all at 0.8 m, both zones at every angle. Run: python -m rig session --guided --port COM7 --config configs/rq3_jessica.json --out data. Angles are per side (the angle between the sensors is twice that) and run in ascending order; higher angles are skipped once the crosstalk is gone (adaptive_stop_ratio). Square the target with the tape first: measure from one straight reference to each end of the board and make the two equal, then read the tilt that tools/live_ranges.py prints. Put the B minus A it shows on a squared target into square_offset_mm, because the two sensors have their own range offsets. expected_range_mm may be one number per distance, or an angle table (degrees per side -> mm) read between its points, for example {\"0\": 288, \"12\": 296}, because a turned sensor reads a little longer once the nearest part of the target leaves the middle of its field.",
+  "name": "rq3-jessica",
+  "distances_m": [
+    0.3,
+    0.8
+  ],
+  "theta_per_side_deg": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "rois": [
+    16,
+    4
+  ],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.1,
+  "max_block_attempts": 3,
+  "seed": 20261002,
+  "adaptive_stop_ratio": 1.1,
+  "adaptive_confirm": 1,
+  "range_tol_mm": 15,
+  "square_tol_mm": 10,
+  "expected_range_mm": {
+    "0.3": 288,
+    "0.8": 803
+  },
+  "square_offset_mm": 0
+}

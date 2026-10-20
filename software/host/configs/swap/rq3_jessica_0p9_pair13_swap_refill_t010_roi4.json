@@ -1,0 +1,34 @@
+{
+  "_comment": "Refill for the swap sweep rq3_jessica_0p9_pair13_plus1.json (the one Jessica actually ran, tagged 'swap' at the command line, not configs/swap/rq3_jessica_0p9_pair13_pair13_swap.json): d090_t010_r2_roi4 (1 degree per side, roi4, repeat 2) failed 3 times and was given up on. Same calibration as the swap session: unit 1 in position A, unit 3 in position B. Run this with the rig in the same state (units, board, lighting) as the swap sweep, ideally right after it. Run: python -m rig session --guided --port COM7 --config configs/swap/rq3_jessica_0p9_pair13_swap_refill_t010_roi4.json --out data/swap --tag swap-refill",
+  "name": "rq3-jessica-0p9-pair13-swap-refill-t010-roi4",
+  "distances_m": [
+    0.9
+  ],
+  "theta_per_side_deg": [
+    1
+  ],
+  "rois": [
+    4
+  ],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.1,
+  "max_block_attempts": 3,
+  "seed": 20261002,
+  "adaptive_stop_ratio": 0,
+  "adaptive_confirm": 1,
+  "range_tol_mm": 15,
+  "square_tol_mm": 10,
+  "expected_range_mm": {
+    "0.9": {
+      "0": 891,
+      "12": 913
+    }
+  },
+  "square_offset_mm": 3.0
+}

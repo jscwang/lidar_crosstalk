@@ -1,0 +1,43 @@
+block_id,attempt,distance_m,theta_deg,dtheta_deg,roi,repeat,tag,order,solo_ambient_A,solo_ambient_B,ref_ambient_A,ref_ambient_B,accepted,reason
+d090_t010_r1_roi4,1,0.9,1,2,4,1,swap-divider,B A AB,0.4,7.2,,,True,
+d090_t010_r1_roi16,1,0.9,1,2,16,1,swap-divider,A B AB,87.2,84.6,,,True,
+d090_t010_r2_roi16,1,0.9,1,2,16,2,swap-divider,A B AB,88.7,84.7,87.2,84.6,True,
+d090_t010_r2_roi4,1,0.9,1,2,4,2,swap-divider,AB B A,0.4,7.3,0.4,7.2,True,
+d090_t010_r3_roi16,1,0.9,1,2,16,3,swap-divider,A AB B,86.1,84.1,88.7,84.7,True,
+d090_t010_r3_roi4,1,0.9,1,2,4,3,swap-divider,A B AB,0.4,6.8,0.4,7.3,True,
+d090_t010_r4_roi4,1,0.9,1,2,4,4,swap-divider,A B AB,0.3,6.7,0.4,6.8,True,
+d090_t010_r4_roi16,1,0.9,1,2,16,4,swap-divider,B A AB,84.0,84.8,86.1,84.1,True,
+d090_t010_r5_roi16,1,0.9,1,2,16,5,swap-divider,AB A B,86.8,84.5,84.0,84.8,True,
+d090_t010_r5_roi4,1,0.9,1,2,4,5,swap-divider,B A AB,0.3,7.2,0.3,6.7,True,
+d090_t020_r1_roi4,1,0.9,2,4,4,1,swap-divider,B AB A,0.4,5.9,,,True,
+d090_t020_r1_roi16,1,0.9,2,4,16,1,swap-divider,AB B A,81.7,83.5,,,True,
+d090_t020_r2_roi4,1,0.9,2,4,4,2,swap-divider,B A AB,0.6,6.7,0.4,5.9,False,solo ambient B moved +0.78 kcps from 5.92 (limit 0.59)
+d090_t020_r2_roi4,2,0.9,2,4,4,2,swap-divider,B A AB,0.4,6.8,0.4,5.9,False,solo ambient B moved +0.87 kcps from 5.92 (limit 0.59)
+d090_t020_r2_roi4,3,0.9,2,4,4,2,swap-divider,B A AB,0.3,6.9,0.4,5.9,False,solo ambient B moved +0.97 kcps from 5.92 (limit 0.59)
+d090_t020_r2_roi4,4,0.9,2,4,4,2,swap-divider,B A AB,,,,,False,gave up after 3 attempts
+d090_t020_r2_roi16,1,0.9,2,4,16,2,swap-divider,AB B A,84.2,84.8,81.7,83.5,True,
+d090_t020_r3_roi16,1,0.9,2,4,16,3,swap-divider,A AB B,86.0,83.1,84.2,84.8,True,
+d090_t020_r3_roi4,1,0.9,2,4,4,3,swap-divider,AB A B,0.3,6.6,0.4,5.9,False,solo ambient B moved +0.70 kcps from 5.92 (limit 0.59)
+d090_t020_r3_roi4,2,0.9,2,4,4,3,swap-divider,AB A B,0.4,6.8,0.4,5.9,False,solo ambient B moved +0.89 kcps from 5.92 (limit 0.59)
+d090_t020_r3_roi4,3,0.9,2,4,4,3,swap-divider,AB A B,0.5,6.8,0.4,5.9,False,solo ambient B moved +0.83 kcps from 5.92 (limit 0.59)
+d090_t020_r3_roi4,4,0.9,2,4,4,3,swap-divider,AB A B,,,,,False,gave up after 3 attempts
+d090_t020_r4_roi16,1,0.9,2,4,16,4,swap-divider,A B AB,84.8,82.7,86.0,83.1,True,
+d090_t020_r4_roi4,1,0.9,2,4,4,4,swap-divider,AB A B,0.4,6.8,0.4,5.9,False,solo ambient B moved +0.87 kcps from 5.92 (limit 0.59)
+d090_t020_r4_roi4,2,0.9,2,4,4,4,swap-divider,AB A B,0.4,6.6,0.4,5.9,False,solo ambient B moved +0.66 kcps from 5.92 (limit 0.59)
+d090_t020_r4_roi4,3,0.9,2,4,4,4,swap-divider,AB A B,0.3,6.5,0.4,5.9,False,solo ambient B moved +0.59 kcps from 5.92 (limit 0.59)
+d090_t020_r4_roi4,4,0.9,2,4,4,4,swap-divider,AB A B,,,,,False,gave up after 3 attempts
+d090_t020_r5_roi16,1,0.9,2,4,16,5,swap-divider,B A AB,83.2,85.0,84.8,82.7,True,
+d090_t020_r5_roi4,1,0.9,2,4,4,5,swap-divider,B AB A,0.5,7.1,0.4,5.9,False,solo ambient B moved +1.15 kcps from 5.92 (limit 0.59)
+d090_t020_r5_roi4,2,0.9,2,4,4,5,swap-divider,B AB A,0.3,6.9,0.4,5.9,False,solo ambient B moved +0.96 kcps from 5.92 (limit 0.59)
+d090_t020_r5_roi4,3,0.9,2,4,4,5,swap-divider,B AB A,0.2,6.6,0.4,5.9,False,solo ambient B moved +0.69 kcps from 5.92 (limit 0.59)
+d090_t020_r5_roi4,4,0.9,2,4,4,5,swap-divider,B AB A,,,,,False,gave up after 3 attempts
+d090_t050_r1_roi16,1,0.9,5,10,16,1,swap-divider,AB A B,84.0,81.0,,,True,
+d090_t050_r1_roi4,1,0.9,5,10,4,1,swap-divider,A B AB,0.3,6.6,,,True,
+d090_t050_r2_roi4,1,0.9,5,10,4,2,swap-divider,A B AB,0.3,6.8,0.3,6.6,True,
+d090_t050_r2_roi16,1,0.9,5,10,16,2,swap-divider,AB B A,84.4,84.7,84.0,81.0,True,
+d090_t050_r3_roi4,1,0.9,5,10,4,3,swap-divider,B AB A,0.4,6.8,0.3,6.8,True,
+d090_t050_r3_roi16,1,0.9,5,10,16,3,swap-divider,A AB B,85.2,86.3,84.4,84.7,True,
+d090_t050_r4_roi16,1,0.9,5,10,16,4,swap-divider,A AB B,83.7,85.1,85.2,86.3,True,
+d090_t050_r4_roi4,1,0.9,5,10,4,4,swap-divider,B A AB,0.3,7.3,0.4,6.8,True,
+d090_t050_r5_roi16,1,0.9,5,10,16,5,swap-divider,AB A B,86.2,83.0,83.7,85.1,True,
+d090_t050_r5_roi4,1,0.9,5,10,4,5,swap-divider,B AB A,0.4,7.1,0.3,7.3,True,

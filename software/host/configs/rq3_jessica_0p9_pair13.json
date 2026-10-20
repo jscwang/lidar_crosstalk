@@ -1,0 +1,46 @@
+{
+  "_comment": "RQ3 for Jessica at 0.9 m, replacing 0.8 m, with the pair kept throughout (unit 3 in A, unit 1 in B). At tape 900, squared, live_ranges.py settled on A about 889.3 mm, B about 892.3 mm (mean 890.8), so expected_range_mm at 0 degrees is 891. B minus A is +3.0 mm, so square_offset_mm is 3.0, close to the 2.5 used at 0.3 and 0.6 m. No theta=12 reading was taken yet, so the top of the angle table (913) is estimated from the 10 mm rise at 0.3 m and 16 mm rise at 0.6 m, scaled to this distance; range_tol_mm (15) should absorb a few mm of error, but check it with tools/live_ranges.py at theta=12 early in the run and correct the table if it is off by more than that. The 1.2 m board comfortably covers the full sweep at 0.9 m (about 20 degrees per side before the view runs past its edge, versus 12 needed). Run: python -m rig session --guided --port COM7 --config configs/rq3_jessica_0p9_pair13.json --out data",
+  "name": "rq3-jessica-0p9-pair13",
+  "distances_m": [
+    0.9
+  ],
+  "theta_per_side_deg": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "rois": [
+    16,
+    4
+  ],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.1,
+  "max_block_attempts": 3,
+  "seed": 20261002,
+  "adaptive_stop_ratio": 1.1,
+  "adaptive_confirm": 1,
+  "range_tol_mm": 15,
+  "square_tol_mm": 10,
+  "expected_range_mm": {
+    "0.9": {
+      "0": 891,
+      "12": 913
+    }
+  },
+  "square_offset_mm": 3.0
+}

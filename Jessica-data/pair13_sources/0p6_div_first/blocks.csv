@@ -1,0 +1,24 @@
+block_id,attempt,distance_m,theta_deg,dtheta_deg,roi,repeat,tag,order,solo_ambient_A,solo_ambient_B,ref_ambient_A,ref_ambient_B,accepted,reason
+d060_t020_r1_roi4,1,0.6,2,4,4,1,divider,B A AB,8.4,0.7,,,True,
+d060_t020_r1_roi16,1,0.6,2,4,16,1,divider,A B AB,84.4,85.6,,,True,
+d060_t020_r2_roi16,1,0.6,2,4,16,2,divider,A B AB,85.8,85.0,84.4,85.6,True,
+d060_t020_r2_roi4,1,0.6,2,4,4,2,divider,AB B A,7.4,0.5,8.4,0.7,False,solo ambient A moved -1.04 kcps from 8.40 (limit 0.84)
+d060_t020_r2_roi4,2,0.6,2,4,4,2,divider,AB B A,8.1,0.5,8.4,0.7,True,
+d060_t020_r3_roi16,1,0.6,2,4,16,3,divider,A AB B,84.4,86.0,85.8,85.0,True,
+d060_t020_r3_roi4,1,0.6,2,4,4,3,divider,A B AB,7.8,0.5,8.1,0.5,True,
+d060_t020_r4_roi4,1,0.6,2,4,4,4,divider,A B AB,7.9,0.4,7.8,0.5,True,
+d060_t020_r4_roi16,1,0.6,2,4,16,4,divider,B A AB,81.8,85.7,84.4,86.0,True,
+d060_t020_r5_roi16,1,0.6,2,4,16,5,divider,AB A B,84.3,85.1,81.8,85.7,True,
+d060_t020_r5_roi4,1,0.6,2,4,4,5,divider,B A AB,7.9,0.4,7.9,0.4,True,
+d060_t050_r1_roi4,1,0.6,5,10,4,1,divider,B AB A,6.1,0.4,,,True,
+d060_t050_r1_roi16,1,0.6,5,10,16,1,divider,AB B A,80.4,83.9,,,True,
+d060_t050_r2_roi4,1,0.6,5,10,4,2,divider,B A AB,5.9,0.5,6.1,0.4,True,
+d060_t050_r2_roi16,1,0.6,5,10,16,2,divider,AB B A,81.8,86.2,80.4,83.9,True,
+d060_t050_r3_roi16,1,0.6,5,10,16,3,divider,A AB B,84.6,86.4,81.8,86.2,True,
+d060_t050_r3_roi4,1,0.6,5,10,4,3,divider,AB A B,6.5,0.4,5.9,0.5,False,solo ambient A moved +0.60 kcps from 5.94 (limit 0.59)
+d060_t050_r3_roi4,2,0.6,5,10,4,3,divider,AB A B,6.8,0.4,5.9,0.5,False,solo ambient A moved +0.88 kcps from 5.94 (limit 0.59)
+d060_t050_r3_roi4,3,0.6,5,10,4,3,divider,AB A B,6.4,0.4,5.9,0.5,True,
+d060_t050_r4_roi16,1,0.6,5,10,16,4,divider,A B AB,82.0,85.7,84.6,86.4,True,
+d060_t050_r4_roi4,1,0.6,5,10,4,4,divider,AB A B,6.7,0.4,6.4,0.4,True,
+d060_t050_r5_roi16,1,0.6,5,10,16,5,divider,B A AB,81.1,85.7,82.0,85.7,True,
+d060_t050_r5_roi4,1,0.6,5,10,4,5,divider,B AB A,6.5,0.4,6.7,0.4,True,

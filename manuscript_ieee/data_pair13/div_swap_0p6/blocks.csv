@@ -1,0 +1,33 @@
+block_id,attempt,distance_m,theta_deg,dtheta_deg,roi,repeat,tag,order,solo_ambient_A,solo_ambient_B,ref_ambient_A,ref_ambient_B,accepted,reason,provenance
+d060_t010_r1_roi4,1,0.6,1,2,4,1,swap-divider,B A AB,0.4,8.1,,,True,,main
+d060_t010_r1_roi16,1,0.6,1,2,16,1,swap-divider,A B AB,87.9,86.5,,,True,,main
+d060_t010_r2_roi16,1,0.6,1,2,16,2,swap-divider,A B AB,88.1,87.3,87.9,86.5,True,,main
+d060_t010_r2_roi4,1,0.6,1,2,4,2,swap-divider,AB B A,0.4,8.9,0.4,8.1,True,,main
+d060_t010_r3_roi16,1,0.6,1,2,16,3,swap-divider,A AB B,87.2,87.6,88.1,87.3,True,,main
+d060_t010_r3_roi4,1,0.6,1,2,4,3,swap-divider,A B AB,0.3,8.0,0.4,8.9,False,solo ambient B moved -0.89 kcps from 8.86 (limit 0.89),main
+d060_t010_r3_roi4,2,0.6,1,2,4,3,swap-divider,A B AB,0.4,8.5,0.4,8.9,True,,main
+d060_t010_r4_roi4,1,0.6,1,2,4,4,swap-divider,A B AB,0.4,8.0,0.4,8.5,True,,main
+d060_t010_r4_roi16,1,0.6,1,2,16,4,swap-divider,B A AB,83.6,89.0,87.2,87.6,True,,main
+d060_t010_r5_roi16,1,0.6,1,2,16,5,swap-divider,AB A B,88.7,87.0,83.6,89.0,True,,main
+d060_t010_r5_roi4,1,0.6,1,2,4,5,swap-divider,B A AB,0.2,8.4,0.4,8.0,True,,main
+d060_t020_r1_roi4,1,0.6,2,4,4,1,swap-divider,B AB A,0.4,7.9,,,True,,main
+d060_t020_r1_roi16,1,0.6,2,4,16,1,swap-divider,AB B A,85.0,85.9,,,True,,main
+d060_t020_r2_roi4,1,0.6,2,4,4,2,swap-divider,B A AB,0.4,7.9,0.4,7.9,True,,main
+d060_t020_r2_roi16,1,0.6,2,4,16,2,swap-divider,AB B A,85.4,87.5,85.0,85.9,True,,main
+d060_t020_r3_roi16,1,0.6,2,4,16,3,swap-divider,A AB B,87.5,85.8,85.4,87.5,True,,main
+d060_t020_r3_roi4,1,0.6,2,4,4,3,swap-divider,AB A B,0.4,8.5,0.4,7.9,True,,main
+d060_t020_r4_roi16,1,0.6,2,4,16,4,swap-divider,A B AB,85.3,85.4,87.5,85.8,True,,main
+d060_t020_r4_roi4,1,0.6,2,4,4,4,swap-divider,AB A B,0.4,7.9,0.4,8.5,True,,main
+d060_t020_r5_roi16,1,0.6,2,4,16,5,swap-divider,B A AB,84.6,88.3,85.3,85.4,True,,main
+d060_t020_r5_roi4,1,0.6,2,4,4,5,swap-divider,B AB A,0.3,8.9,0.4,7.9,False,solo ambient B moved +1.00 kcps from 7.88 (limit 0.79),main
+d060_t020_r5_roi4,2,0.6,2,4,4,5,swap-divider,B AB A,0.3,8.1,0.4,7.9,True,,main
+d060_t050_r1_roi16,1,0.6,5,10,16,1,swap-divider,AB A B,85.9,84.6,,,True,,main
+d060_t050_r1_roi4,1,0.6,5,10,4,1,swap-divider,A B AB,0.5,6.7,,,True,,main
+d060_t050_r2_roi4,1,0.6,5,10,4,2,swap-divider,A B AB,0.3,6.9,0.5,6.7,True,,main
+d060_t050_r2_roi16,1,0.6,5,10,16,2,swap-divider,AB B A,84.3,88.3,85.9,84.6,True,,main
+d060_t050_r3_roi4,1,0.6,5,10,4,3,swap-divider,B AB A,0.2,7.1,0.3,6.9,True,,main
+d060_t050_r3_roi16,1,0.6,5,10,16,3,swap-divider,A AB B,85.9,86.6,84.3,88.3,True,,main
+d060_t050_r4_roi16,1,0.6,5,10,16,4,swap-divider,A AB B,85.0,87.7,85.9,86.6,True,,main
+d060_t050_r4_roi4,1,0.6,5,10,4,4,swap-divider,B A AB,0.3,7.6,0.2,7.1,True,,main
+d060_t050_r5_roi16,1,0.6,5,10,16,5,swap-divider,AB A B,86.5,86.2,85.0,87.7,True,,main
+d060_t050_r5_roi4,1,0.6,5,10,4,5,swap-divider,B AB A,0.2,7.3,0.3,7.6,True,,main

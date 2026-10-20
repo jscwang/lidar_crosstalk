@@ -1,0 +1,8 @@
+{
+  "name": "vl53l1x_uld",
+  "version": "1.0.1-rig",
+  "description": "ST VL53L1X ultra lite driver (from SparkFun 1.2.12) with I2C error reporting",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "build": { "srcDir": "src" }
+}

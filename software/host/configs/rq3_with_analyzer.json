@@ -1,0 +1,17 @@
+{
+  "_comment": "RQ3 rerun with the logic analyzer attached (breadboard tap), 2026-09-29. Angles are the real hole positions on the built plate: the inner arm hole serves 0, 5, 10, 15 per side, the outer arm hole serves 2.5, 7.5, 12.5 per side (read off the CAD and the plate, not the 3, 7, 12 the first run assumed). Inner holes first, so the arm hole only changes once per distance. The runner stops at every angle change and waits for the operator.",
+  "name": "rq3-with-analyzer",
+  "distances_m": [0.3, 0.8],
+  "theta_per_side_deg": [0, 5, 10, 15, 2.5, 7.5, 12.5],
+  "rois": [16, 4],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.10,
+  "max_block_attempts": 3,
+  "seed": 20260929
+}

@@ -1,0 +1,36 @@
+{
+  "_comment": "Divider test at 0.9 m for the pair13 pair (unit 3 in A, unit 1 in B), replacing the 0.8 m plan: a thin black strip stands between the sensor windows, kept out of both fields of view, no more than about 15 mm ahead of the sensor chips. Two angles only (2 and 5 degrees per side, this mount only does whole degrees), both zones, five repeats, same design and same calibration as rq3_jessica_0p9_pair13.json. Run with --tag divider. Run: python -m rig session --guided --port COM7 --config configs/rq3_jessica_0p9_pair13_divider.json --out data --tag divider",
+  "name": "rq3-jessica-0p9-pair13-divider",
+  "distances_m": [
+    0.9
+  ],
+  "theta_per_side_deg": [
+    2,
+    5
+  ],
+  "rois": [
+    16,
+    4
+  ],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.1,
+  "max_block_attempts": 3,
+  "seed": 20261002,
+  "adaptive_stop_ratio": 1.1,
+  "adaptive_confirm": 1,
+  "range_tol_mm": 15,
+  "square_tol_mm": 10,
+  "expected_range_mm": {
+    "0.9": {
+      "0": 891,
+      "12": 913
+    }
+  },
+  "square_offset_mm": 3.0
+}

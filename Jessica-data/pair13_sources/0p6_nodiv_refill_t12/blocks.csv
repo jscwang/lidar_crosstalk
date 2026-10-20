@@ -1,0 +1,11 @@
+block_id,attempt,distance_m,theta_deg,dtheta_deg,roi,repeat,tag,order,solo_ambient_A,solo_ambient_B,ref_ambient_A,ref_ambient_B,accepted,reason
+d060_t120_r1_roi4,1,0.6,12,24,4,1,refill,B A AB,7.3,0.7,,,True,
+d060_t120_r1_roi16,1,0.6,12,24,16,1,refill,A B AB,89.6,89.9,,,True,
+d060_t120_r2_roi16,1,0.6,12,24,16,2,refill,A B AB,90.1,89.6,89.6,89.9,True,
+d060_t120_r2_roi4,1,0.6,12,24,4,2,refill,AB B A,7.4,0.6,7.3,0.7,True,
+d060_t120_r3_roi16,1,0.6,12,24,16,3,refill,A AB B,89.3,90.7,90.1,89.6,True,
+d060_t120_r3_roi4,1,0.6,12,24,4,3,refill,A B AB,7.2,0.6,7.4,0.6,True,
+d060_t120_r4_roi4,1,0.6,12,24,4,4,refill,A B AB,7.2,0.5,7.2,0.6,True,
+d060_t120_r4_roi16,1,0.6,12,24,16,4,refill,B A AB,87.0,89.0,89.3,90.7,True,
+d060_t120_r5_roi16,1,0.6,12,24,16,5,refill,AB A B,89.9,88.1,87.0,89.0,True,
+d060_t120_r5_roi4,1,0.6,12,24,4,5,refill,B A AB,7.4,0.6,7.2,0.5,True,

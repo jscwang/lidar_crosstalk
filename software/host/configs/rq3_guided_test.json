@@ -1,0 +1,20 @@
+{
+  "_comment": "Two-minute check of the guided session on a real rig: one angle, two distances, one short block each. Use it to see the live readout, the colours and the LED before the long run: python -m rig session --guided --port COMx --config configs/rq3_guided_test.json --out guided_test_out --angle-wait 5",
+  "name": "guided-test",
+  "distances_m": [0.3, 0.8],
+  "theta_per_side_deg": [0],
+  "rois": [16],
+  "repeats": 1,
+  "run_ms": 3000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 5,
+  "ambient_tolerance": 0.10,
+  "max_block_attempts": 1,
+  "seed": 1,
+  "expected_range_mm": {"0.3": 288, "0.8": 803},
+  "range_tol_mm": 15,
+  "square_tol_mm": 10
+}

@@ -1,0 +1,2 @@
+block_id,attempt,distance_m,theta_deg,dtheta_deg,roi,repeat,tag,order,solo_ambient_A,solo_ambient_B,ref_ambient_A,ref_ambient_B,accepted,reason
+d030_t050_r1_roi16,1,0.3,5,10,16,1,refill,B AB A,46.5,51.4,,,True,

@@ -1,0 +1,120 @@
+where,text,recomputed,ok
+Results/angular: full-array peak 0.3 m (kcps),1006.0,1006,True
+Results/angular: full-array peak 0.6 m (kcps),665.0,665,True
+Results/angular: full-array peak 0.9 m (kcps),302.0,302,True
+Results/angular: window peak 0.3 m (kcps),273.0,273,True
+Results/angular: window peak 0.6 m (kcps),65.0,65,True
+Results/angular: window peak 0.9 m (kcps),24.0,24,True
+"Results/angular: extra over solo, full array 0.3 m",23.0,23,True
+"Results/angular: extra over solo, full array 0.6 m",8.0,8,True
+"Results/angular: extra over solo, full array 0.9 m",3.5,3.5,True
+"Results/angular: window 0.6 m, 4 deg above 0 deg (%)",4.5,4.5,True
+"Results/angular: window 0.9 m, 4 deg above 0 deg (%)",23.0,23,True
+"Results/angular: window 0.3 m, lower by (%)",-25.0,-25,True
+Results/angular: Welch p 0.6 m,0.0024,0.0024,True
+Results/angular: Welch p 0.9 m below 0.0001,0.0001,0.000,True
+Results/crossover: bracket lower edge 16x16 0.3 m,16.0,16,True
+Results/crossover: bracket upper edge 16x16 0.3 m,18.0,18,True
+Results/crossover: bracket lower edge 16x16 0.6 m,16.0,16,True
+Results/crossover: bracket upper edge 16x16 0.6 m,18.0,18,True
+Results/crossover: bracket lower edge 16x16 0.9 m,16.0,16,True
+Results/crossover: bracket upper edge 16x16 0.9 m,18.0,18,True
+Results/crossover: bracket lower edge 4x4 0.3 m,8.0,8,True
+Results/crossover: bracket upper edge 4x4 0.3 m,10.0,10,True
+Results/crossover: bracket lower edge 4x4 0.6 m,8.0,8,True
+Results/crossover: bracket upper edge 4x4 0.6 m,10.0,10,True
+Results/crossover: bracket lower edge 4x4 0.9 m,10.0,10,True
+Results/crossover: bracket upper edge 4x4 0.9 m,12.0,12,True
+Results/crossover: PCHIP 16x16 0.3 m,16.15,16.15,True
+Results/crossover: PCHIP 16x16 0.6 m,16.97,16.97,True
+Results/crossover: PCHIP 16x16 0.9 m,17.9,17.90,True
+Results/crossover: PCHIP 4x4 0.3 m,8.22,8.22,True
+Results/crossover: PCHIP 4x4 0.6 m,9.47,9.47,True
+Results/crossover: PCHIP 4x4 0.9 m,10.8,10.80,True
+Results/crossover: smallest M4 bootstrap half-width,0.01,0.01,True
+Results/crossover: largest M4 bootstrap half-width,0.07,0.07,True
+Results/crossover: smallest estimator spread,0.13,0.13,True
+Results/crossover: largest estimator spread,1.02,1.02,True
+Results/crossover: smallest spread/half-width ratio,10.0,10,True
+Results/crossover: largest spread/half-width ratio,44.0,44,True
+"Results/crossover: logistic minus PCHIP, full array, min",0.9,0.9,True
+"Results/crossover: logistic minus PCHIP, full array, max",1.0,1.0,True
+Results/crossover: logistic at 0.9 m full array,18.84,18.84,True
+Results/crossover: min dAIC over the five cells,140.0,144.591,True
+Results/crossover: number of cells with dAIC above 140,5.0,5,True
+"Results/crossover: PCHIP vs tilted logistic, max |difference|",0.14,0.133,True
+"Results/crossover: threshold shift, smallest",0.7,0.7,True
+"Results/crossover: threshold shift, largest",1.7,1.7,True
+"Results/crossover: A earlier than B, full array, min",1.0,1.0,True
+"Results/crossover: A earlier than B, full array, max",1.1,1.1,True
+"Results/crossover: A later than B, window, min",0.6,0.6,True
+"Results/crossover: A later than B, window, max",1.0,1.0,True
+"Results/crossover: A-B same sign at every distance (full array negative, window positive)",1.0,1,True
+Results/1% angle 16x16 0.3 m,19.9,19.9,True
+Results/1% angle 16x16 0.6 m,20.9,20.9,True
+Results/1% angle 16x16 0.9 m,21.6,21.6,True
+Results/1% angle 4x4 0.3 m,11.4,11.4,True
+Results/1% angle 4x4 0.6 m,12.5,12.5,True
+Results/1% angle 4x4 0.9 m,13.1,13.1,True
+"Results/extra over solo at the 1% angle, full array 0.3 m",0.19,0.19,True
+"Results/extra over solo at the 1% angle, full array 0.6 m",0.09,0.09,True
+"Results/extra over solo at the 1% angle, full array 0.9 m",0.04,0.04,True
+Results/range: largest |bias| at 0 deg (mm),0.3,0.3,True
+"Results/range: SD ratio full array, smallest (% above 1)",7.0,7,True
+"Results/range: SD ratio full array, largest (% above 1)",10.0,10,True
+Results/range: SD ratio window 0.3 m (% above 1),13.0,13,True
+Results/range: at 24 deg every SD-ratio interval contains 1,1.0,1,True
+Results/range: at 24 deg every bias interval contains 0,1.0,1,True
+"Results/range: window valid share at 0.6 m, 0 deg (about half)",0.5,0.5,True
+"Results/range: window valid share at 0.9 m, 0 deg (none)",0.0,0,True
+"Results/model: as coded, full array min",23.4,23.4,True
+"Results/model: as coded, full array max",25.8,25.8,True
+"Results/model: as coded, window min",17.3,17.3,True
+"Results/model: as coded, window max",19.8,19.8,True
+"Results/model: as coded beyond the 1% angle, full array min",3.4,3.4,True
+"Results/model: as coded beyond the 1% angle, full array max",4.3,4.3,True
+"Results/model: as coded beyond the 1% angle, window min",5.9,5.9,True
+"Results/model: as coded beyond the 1% angle, window max",6.8,6.8,True
+Results/model: in-plane full array min,19.5,19.5,True
+Results/model: in-plane full array max,21.9,21.9,True
+Results/model: in-plane full array within 0.5 deg of the 1% angle,0.5,0.477,True
+"Results/model: in-plane window too late, min",3.8,3.8,True
+"Results/model: in-plane window too late, max",4.6,4.6,True
+"Results/model: implied cone full array, min (26-28)",26.0,26,True
+"Results/model: implied cone full array, max (26-28)",28.0,28,True
+"Results/model: implied cone window, min (18-20)",18.0,18,True
+"Results/model: implied cone window, max (18-20)",20.0,20,True
+Results/model: within-zone spread of implied cone at most 1.8,1.8,1.8,True
+Results/divider: smallest change (%),-7.7,-7.7,True
+Results/divider: largest change (%),17.2,17.2,True
+Results/divider: cells within +-4.2%,10.0,10,True
+Results/divider: exceptions are window cells at 10 deg,1.0,1,True
+"Results/divider: exception absolute change, smaller (kcps)",-0.5,-0.5,True
+"Results/divider: exception absolute change, larger (kcps)",0.8,0.8,True
+Results/divider: 0.3 m all fell,1.0,1,True
+Results/divider: 0.3 m least fall (%),-0.7,-0.7,True
+Results/divider: 0.3 m largest fall (%),-7.7,-7.7,True
+Results/divider: 0.6 m all rose,1.0,1,True
+Results/divider: 0.6 m smallest rise (%),3.9,3.9,True
+Results/divider: 0.6 m largest rise (%),17.2,17.2,True
+Results/divider: 0.9 m smallest (%),-0.1,-0.1,True
+Results/divider: 0.9 m largest (%),2.5,2.5,True
+Results/divider: intervals excluding zero,10.0,10,True
+Results/divider: intervals including zero are the 0.9 m window,1.0,1,True
+"Results/divider: solo ambient change, smallest (%)",-20.0,-20,True
+"Results/divider: solo ambient change, largest (%)",18.0,18,True
+Results/divider: two 0.6 m placements agree within (%),1.6,1.554,True
+"Methods: excluding refill blocks, max change in any crossover (deg)",0.01,0.01,True
+"Discussion: 1% angle per sensor, full array at 0.9 m (deg)",11.0,11,True
+"Discussion: 1% angle per sensor, window at 0.9 m (deg)",6.5,6.5,True
+"Discussion: 10% angle per sensor, full array at 0.9 m (deg)",9.0,9,True
+"Discussion: 10% angle per sensor, window at 0.9 m (deg)",5.4,5.4,True
+Discussion: window peak at 0.3 m (kcps),273.0,273,True
+"Abstract: union of 10% brackets for the window, lower",8.0,8,True
+"Abstract: union of 10% brackets for the window, upper",12.0,12,True
+"Abstract: 1% angles, full array, rounded lower",20.0,20,True
+"Abstract: 1% angles, full array, rounded upper",22.0,22,True
+"Abstract: 1% angles, window, rounded lower",11.0,11,True
+"Abstract: 1% angles, window, rounded upper",13.0,13,True
+Abstract/Conclusion: model overshoot from 3 to 7 (min over both zones),3.0,3,True
+Abstract/Conclusion: model overshoot from 3 to 7 (max over both zones),7.0,7,True

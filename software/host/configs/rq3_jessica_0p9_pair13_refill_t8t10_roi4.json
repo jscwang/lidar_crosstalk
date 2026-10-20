@@ -1,0 +1,35 @@
+{
+  "_comment": "Refill for the 0.9 m pair13 main sweep: 7 roi4 blocks gave up on 9 October (solo ambient A drifted past the 10% limit for a sustained stretch at both 8 and 10 degrees per side: d090_t080_r2_roi4, r3, r4 and d090_t100_r2_roi4, r3, r4, r5). Repeats 1 for each angle already exist and passed, so this regenerates all 5 repeats at each angle for roi4 only; keep repeats 2-4 (8 deg) and 2-5 (10 deg) from this run when merging and discard the rest as redundant. Same calibration as rq3_jessica_0p9_pair13.json. If the same sustained ambient drift shows up again, wait a few minutes for it to settle before starting rather than retrying immediately. Run: python -m rig session --guided --port COM7 --config configs/rq3_jessica_0p9_pair13_refill_t8t10_roi4.json --out data --tag refill",
+  "name": "rq3-jessica-0p9-pair13-refill-t8t10-roi4",
+  "distances_m": [
+    0.9
+  ],
+  "theta_per_side_deg": [
+    8,
+    10
+  ],
+  "rois": [
+    4
+  ],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.1,
+  "max_block_attempts": 3,
+  "seed": 20261002,
+  "adaptive_stop_ratio": 1.1,
+  "adaptive_confirm": 1,
+  "range_tol_mm": 15,
+  "square_tol_mm": 10,
+  "expected_range_mm": {
+    "0.9": {
+      "0": 891,
+      "12": 913
+    }
+  },
+  "square_offset_mm": 3.0
+}

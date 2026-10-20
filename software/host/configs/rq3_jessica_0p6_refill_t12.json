@@ -1,0 +1,35 @@
+{
+  "_comment": "Refill for the 0.6 m pair13 main sweep: 6 blocks gave up at 12 degrees per side on 6 October (sensor A ambient drift, same signature as the 0.9 m gaps): d060_t120_r3_roi16, r4, r5 and d060_t120_r3_roi4, r4, r5. Repeats 1 and 2 at 12 degrees already exist and passed, so this regenerates all 5 repeats for roi16 and roi4 at this one angle; keep repeats 3-5 from this run when merging and discard 1-2 as redundant. Same calibration as rq3_jessica_0p6.json. If sensor A's ambient starts drifting again, wait a few minutes for it to settle before retrying. Run: python -m rig session --guided --port COM7 --config configs/rq3_jessica_0p6_refill_t12.json --out data --tag refill",
+  "name": "rq3-jessica-0p6-refill-t12",
+  "distances_m": [
+    0.6
+  ],
+  "theta_per_side_deg": [
+    12
+  ],
+  "rois": [
+    16,
+    4
+  ],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.1,
+  "max_block_attempts": 3,
+  "seed": 20261002,
+  "adaptive_stop_ratio": 1.1,
+  "adaptive_confirm": 1,
+  "range_tol_mm": 15,
+  "square_tol_mm": 10,
+  "expected_range_mm": {
+    "0.6": {
+      "0": 570,
+      "12": 586
+    }
+  },
+  "square_offset_mm": 2.5
+}

@@ -1,0 +1,17 @@
+{
+  "_comment": "For the longer arm being designed: 1 degree steps from 8 to 15 per side where the crossover is predicted, 0 and 5 below. Angles are provisional until the fixture is final.",
+  "name": "rq3-fine-steps",
+  "distances_m": [0.3, 0.8],
+  "theta_per_side_deg": [0, 5, 8, 9, 10, 11, 12, 13, 14, 15],
+  "rois": [16, 4],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.10,
+  "max_block_attempts": 3,
+  "seed": 20260923
+}

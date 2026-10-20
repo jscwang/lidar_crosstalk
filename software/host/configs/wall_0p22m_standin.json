@@ -1,0 +1,17 @@
+{
+  "_comment": "Wall test, 2026-09-27, corrected: sensor face measured 22 cm from the near wall with a flat metal tape (the earlier 1.2 m by eye was wrong). Single angle (fixture left at its current setting) so the session runs unattended. Not the calibrated RQ3 dataset (no IKEA target board yet, plain wall, 0.22 m not the procedure's 0.3/0.8 m); for a first look and to exercise the full pipeline on real hardware.",
+  "name": "wall-0p22m-standin",
+  "distances_m": [0.22],
+  "theta_per_side_deg": [0],
+  "rois": [16, 4],
+  "repeats": 5,
+  "run_ms": 20000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 60,
+  "ambient_tolerance": 0.10,
+  "max_block_attempts": 3,
+  "seed": 20260927
+}

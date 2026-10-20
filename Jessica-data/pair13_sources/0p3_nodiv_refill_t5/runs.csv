@@ -1,0 +1,4 @@
+run_id,block_id,attempt,seq_in_block,condition,distance_m,theta_deg,dtheta_deg,roi,repeat,tag,start_utc,room_temp_c,tb_ms,imp_ms,mode,n_A,n_B,edges_A,edges_B,rderr_A,rderr_B,buserr,abort,missed_A,missed_B,expected_per_sensor,accepted,reject_reason
+r00001,d030_t050_r1_roi16,1,1,B,0.3,5,10,16,1,refill,2026-10-07T20:41:29.677+00:00,,33,40,short,0,748,0,748,0,0,0,none,0,0,750,True,
+r00002,d030_t050_r1_roi16,1,2,AB,0.3,5,10,16,1,refill,2026-10-07T20:41:59.745+00:00,,33,40,short,764,748,764,748,0,0,0,none,0,0,750,True,
+r00003,d030_t050_r1_roi16,1,3,A,0.3,5,10,16,1,refill,2026-10-07T20:42:29.818+00:00,,33,40,short,764,0,764,0,0,0,0,none,0,0,750,True,

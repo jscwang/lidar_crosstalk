@@ -1,0 +1,34 @@
+{
+  "_comment": "Refill for the 4 remaining 0.9 m pair13 gaps at 10 degrees per side, roi4: d090_t100_r2, r3, r4, r5 (repeat 1 already passed in the main sweep). Split out from rq3_jessica_0p9_pair13_refill_t8t10_roi4.json because that config's adaptive stop triggered at 8 degrees and skipped 10 entirely, with only roi4 present there was no roi16 ratio left to keep the worst crosstalk ratio above the stop threshold. adaptive_stop_ratio is 0 (off) here so that cannot happen again. Keep repeats 2-5 from this run when merging, discard 1 as redundant. Same calibration as rq3_jessica_0p9_pair13.json. Run: python -m rig session --guided --port COM7 --config configs/rq3_jessica_0p9_pair13_refill_t10_roi4.json --out data --tag refill",
+  "name": "rq3-jessica-0p9-pair13-refill-t10-roi4",
+  "distances_m": [
+    0.9
+  ],
+  "theta_per_side_deg": [
+    10
+  ],
+  "rois": [
+    4
+  ],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.1,
+  "max_block_attempts": 3,
+  "seed": 20261002,
+  "adaptive_stop_ratio": 0,
+  "adaptive_confirm": 1,
+  "range_tol_mm": 15,
+  "square_tol_mm": 10,
+  "expected_range_mm": {
+    "0.9": {
+      "0": 891,
+      "12": 913
+    }
+  },
+  "square_offset_mm": 3.0
+}

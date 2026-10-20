@@ -1,0 +1,6 @@
+block_id,attempt,distance_m,theta_deg,dtheta_deg,roi,repeat,tag,order,solo_ambient_A,solo_ambient_B,ref_ambient_A,ref_ambient_B,accepted,reason
+d090_t010_r1_roi4,1,0.9,1,2,4,1,swap-refill,B AB A,0.2,7.2,,,True,
+d090_t010_r2_roi4,1,0.9,1,2,4,2,swap-refill,A B AB,0.2,6.8,0.2,7.2,True,
+d090_t010_r3_roi4,1,0.9,1,2,4,3,swap-refill,A AB B,0.2,6.9,0.2,6.8,True,
+d090_t010_r4_roi4,1,0.9,1,2,4,4,swap-refill,AB B A,0.3,7.1,0.2,6.9,True,
+d090_t010_r5_roi4,1,0.9,1,2,4,5,swap-refill,A AB B,0.2,7.5,0.3,7.1,True,

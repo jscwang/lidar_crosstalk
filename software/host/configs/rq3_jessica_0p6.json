@@ -1,0 +1,46 @@
+{
+  "_comment": "RQ3 for Jessica at 0.6 m, after the unit swap of 6 October: the pair kept reads about 571 mm at a tape distance of 600 mm, so expected_range_mm is the pair mean of the sensors' own readings at tape 600 (570.25 with unit 3 in A and unit 1 in B). square_offset_mm is B minus A on the squared board (+2.5 with unit 3 in A and unit 1 in B). Angles stop at 12 degrees per side because at 0.6 m the 27 degree view stays on a 60 cm board up to about 12.3 degrees; beyond that the sensors see past its edge. Run: python -m rig session --guided --port COM7 --config configs/rq3_jessica_0p6.json --out data",
+  "name": "rq3-jessica-0p6",
+  "distances_m": [
+    0.6
+  ],
+  "theta_per_side_deg": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "rois": [
+    16,
+    4
+  ],
+  "repeats": 5,
+  "run_ms": 30000,
+  "tb_ms": 33,
+  "imp_ms": 40,
+  "mode": "short",
+  "spacing_mm": 20.0,
+  "warmup_s": 600,
+  "ambient_tolerance": 0.1,
+  "max_block_attempts": 3,
+  "seed": 20261002,
+  "adaptive_stop_ratio": 1.1,
+  "adaptive_confirm": 1,
+  "range_tol_mm": 15,
+  "square_tol_mm": 10,
+  "expected_range_mm": {
+    "0.6": {
+      "0": 570,
+      "12": 586
+    }
+  },
+  "square_offset_mm": 2.5
+}
